@@ -1,0 +1,2 @@
+serviceClass: com.shantanu.coursebook.client.FriendsService
+path: 9DB441BE95C28B84E09CCEACEBF7AAFA.gwt.rpc

@@ -1,0 +1,5 @@
+# Module coursebook
+# RPC service class, partial path of RPC policy file
+com.shantanu.coursebook.client.CourseService, CB5A2A50526E3FA9B5446B4C072D28C3.gwt.rpc
+com.shantanu.coursebook.client.LoginService, 459870A67BD5E4FAB9F4E379754F5316.gwt.rpc
+com.shantanu.coursebook.client.FriendsService, 9DB441BE95C28B84E09CCEACEBF7AAFA.gwt.rpc

@@ -1,0 +1,242 @@
+*{margin:0; padding:0;}
+#notify{
+	display:table; margin:0 auto; padding:0.2em 1em; font-weight:bold; background:rgb(249, 237, 190);
+	box-shadow:0px 2px 4px rgba(0, 0, 0, 0.2); border:1px solid #FC6; clear: both; visibility:hidden;
+}
+#notify.visible{visibility:visible;} #notify.hidden{visibility:hidden;}
+#Nav.visible{visibility: visible;} #Nav.hidden{visibility: hidden;}
+#navBar{height:2.85em; background:#e8e8e8;;}
+ul{list-style:none; font-family:Calibri,Verdana,Helvetica,Arial,sans-serif; z-index:1;}
+ul li{float:left;}
+li ul{background:#e8e8e8; position:absolute; display:none; margin-left:.2em; box-shadow:0px 0px .2em #999999;}
+ul li a{display:block; -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor:pointer;
+  cursor:hand;
+  padding:.5em;
+  font-size:1.25em;
+  font-weight:bold;
+}
+ul li a:active{color:#E9E9E9;}
+li ul li a{font-size:1em; padding:.6em;}
+.menuItemWrapper{width:100%; color:#333333;}
+li ul li{clear:both;}
+li:hover{background:#E56500; color:#FFF}
+.menuItemWrapper:hover{background:#E56500; color:#FFF}
+li:hover ul{display:inline;}
+
+#header{
+	padding:.4em;
+	padding-top:.3em;
+	padding-bottom:.3em;
+	background:green;
+	color:white;
+	font-family:Calibri,Verdana,Helvetica,Arial,sans-serif;
+	font-size:2.5em;
+	font-weight:bold;
+}
+#logSignContainer td{
+    padding:.15em;
+    color:navy;
+}
+gwt-HTML{
+	float:left
+}
+.gwt-Button, td button{border:1px solid #CCC; padding:.4em 0.5em; border-radius:5px;
+background:#ededed; color:#333; font-weight:bold;
+cursor:hand; cursor:pointer; margin:0 .5em; margin-right:0;}
+.gwt-Button:hover, td button:hover{
+	background:#E8E8E8;
+	box-shadow:0px 0px 3px 1px rgba(0, 0 , 0, 0.1);
+}
+.gwt-Button:active, td button:active{background:#ededed;}
+.gwt-DialogBox{background:#F2F3F5; padding:1em; font-size:1.2em;
+border:solid 1px #06911F; border-radius:.3em;
+box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, .3);}
+.gwt-PopupPanelGlass {
+  background-color: #000;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+.gwt-DatePicker {
+  border: 1px solid #ccc;
+  border-top:1px solid #999;
+  cursor: default;
+}
+
+.gwt-DatePicker td,
+.datePickerMonthSelector td:focus {
+  outline: none;
+}
+
+.datePickerMonthSelector td:focus {
+  outline: none;
+}
+
+.datePickerDays {
+  width: 100%;
+  background: white;
+}
+
+.datePickerDay,
+.datePickerWeekdayLabel,
+.datePickerWeekendLabel {
+  font-size: 85%;
+  text-align: center;
+  padding: 4px;
+  outline: none;
+  font-weight:bold;
+  color:#333;
+  border-right: 1px solid #EDEDED;
+  border-bottom: 1px solid #EDEDED;
+}
+
+.datePickerWeekdayLabel,
+.datePickerWeekendLabel {
+  background: #fff;
+  padding: 0px 4px 2px;
+  cursor: default;
+  color:#666;
+  font-size:70%;
+  font-weight:normal;
+}
+
+.datePickerDay {
+  padding: 4px 7px;
+  cursor: hand;
+  cursor: pointer;
+}
+
+.datePickerDayIsWeekend {
+  background: #f7f7f7;
+}
+
+.datePickerDayIsFiller {
+  color: #999;
+  font-weight:normal;
+}
+
+.datePickerDayIsValue {
+  background: #d7dfe8;
+}
+
+.datePickerDayIsDisabled {
+  color: #AAAAAA;
+  font-style: italic;
+}
+
+.datePickerDayIsHighlighted {
+  background: #F0E68C;
+}
+
+.datePickerDayIsValueAndHighlighted {
+  background: #d7dfe8;
+}
+
+.datePickerDayIsToday {
+  padding: 3px; background:#01177A; color:white;
+}
+
+.datePickerMonthSelector {
+  width: 100%;
+  padding: 1px 0 5px 0;
+  background: #fff;
+}
+
+.datePickerPreviousButton,
+.datePickerNextButton {
+  font-size: 120%;
+  line-height: 1em;
+  color: #3a6aad;
+  cursor: hand;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0px 4px;
+  outline: none;
+}
+
+td.datePickerMonth {
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  font-size: 100%;
+  font-weight: bold;
+  color: #333;
+}
+
+.gwt-DateBox {
+  padding: 5px 4px;
+  border: 1px solid #ccc;
+  border-top: 1px solid #999;
+}
+
+.gwt-DateBox input {
+  width: 8em;
+}
+
+.dateBoxFormatError {
+  background: #ffcccc;
+}
+
+.dateBoxPopup {
+}
+.gwt-TextBox, input[type='text'], input[type='password']{height:1.7em; border:solid grey 1px;}
+.gwt-TextBox:focus, input[type='text']:focus, input[type='password']:focus{border:solid blue 1px;
+box-shadow:rgba(0, 0, 0, .2) 0px 0px 1px 1px inset;}
+.gwt-Label{
+    font-weight:bold;
+    font-size:1.2em;
+    margin-top:.5em;
+}
+.status{
+    font-style:italic;
+    padding-left:2em;
+}
+.courseItem{
+    border-bottom:1px solid black;
+    padding: .5em;
+    width: 15em;
+}
+.courseItem .title{
+    font-weight:bold;
+    font-size:larger;
+}
+.courseItem .del{
+    float:right;
+}
+.coursesLbl{
+	float: left;
+}
+.frndTable{
+    margin-left:.5em;
+}
+.head1{
+	margin-top:1em;
+	margin-bottom:1em;
+	margin-left:.5em;
+}
+.gwt-SuggestBoxPopup .suggestPopupContent {background: white;
+border:solid 1px #bbb; padding:.15em; border-radius:.2em;}
+.gwt-SuggestBoxPopup .item { padding:0.25em .3em;}
+.gwt-SuggestBoxPopup .item-selected{background:#D4F3FA}
+.gwt-SuggestBox{
+    margin-left:1em;
+}
+.classesOther{
+	margin-top:.5em;
+	margin-bottom:.5em;
+}
+.comboOther{
+	margin-left:1em;
+}
+.freeOther{
+	margin-left:.5em;
+}
+.titleOther{
+	font-weight:bold;
+	font-size:larger;
+}

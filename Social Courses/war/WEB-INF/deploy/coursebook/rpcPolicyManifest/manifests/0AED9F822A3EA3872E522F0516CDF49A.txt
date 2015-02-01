@@ -1,0 +1,2 @@
+serviceClass: com.shantanu.coursebook.client.CourseService
+path: CB5A2A50526E3FA9B5446B4C072D28C3.gwt.rpc
